@@ -58,3 +58,16 @@ header{
 .iconSearrch{
   margin-left: 15px;
 }
+.signIn_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.signIn{
+  background-color: #1c252f;
+  height: 50px;
+  width: 90px;
+  border:  none;
+  margin-right: 18px;
+  border-radius: 12px;
+}
