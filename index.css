@@ -1,3 +1,4 @@
+/* Same for all the section */
 *{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -6,8 +7,9 @@
   font-variation-settings:
   "wdth" 100;
   color: #ffffff;
+  background-color: #060d17;
 }
-/* Header */
+/* Header section*/
 header{
   height: 105px;
   align-items: flex-end;
@@ -70,4 +72,27 @@ header{
   border:  none;
   margin-right: 18px;
   border-radius: 12px;
+}
+
+/* Main section  */
+.baseContainer{
+  margin-left: 49px;
+  margin-right: 49px;
+  font-size: 20px;
+}
+.text{
+  text-decoration: none;
+  color: #78a6b8;
+}
+.webIcons{
+  display: flex;
+  gap: 1px;
+  overflow-x: auto; /* scroll horizontally */
+  width: 100%;
+}
+.webIcons::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  min-width: 120px; /* keeps cards in a row */
 }
