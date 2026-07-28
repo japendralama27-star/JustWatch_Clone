@@ -151,3 +151,18 @@ header{
 .iconpop{
   margin-top: 5px;
 }
+.banner{
+  display: flex;
+  justify-content: space-evenly;
+  overflow-x: auto;
+  gap: 1px;
+  margin-top: 40px;
+  width: 100%;
+}
+.banner::-webkit-scrollbar{
+  display: none;
+}
+.bannerCard{
+  min-width: 180px;
+  margin-left: 15px;
+}
