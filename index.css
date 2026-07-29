@@ -28,6 +28,7 @@ header{
 .navBar_Containe{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .navBar{
   text-decoration: none;
@@ -39,6 +40,7 @@ header{
 .searchContainer{
   display: flex;
   border-radius: 12px;
+  flex-wrap: wrap;
 }
 .search{
   height: 50px;
@@ -67,6 +69,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .signIn{
   background-color: #1c252f;
@@ -93,6 +96,7 @@ header{
 }
 .webIcons{
   display: flex;
+  flex-wrap: wrap;
   gap: 1px;
   overflow-x: auto; /* scroll horizontally */
   width: 100%;
@@ -106,6 +110,7 @@ header{
 .mainheaderContainer{
   display: flex;
   margin-bottom: 12px;
+  flex-wrap: wrap;
 }
 .typesContainer{
   display: flex;
@@ -125,12 +130,14 @@ header{
 .moviesCategories{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .typecategories{
   display: flex;
   text-decoration: none;
   color: #9196a3;
   margin-right: 25px;
+  flex-wrap: wrap;
 }
 .iconCategories{
   margin-top: 4px;
@@ -149,6 +156,7 @@ header{
 }
 .pop{
   display: flex;
+  flex-wrap: wrap;
   color: #727f92
 }
 .iconpop{
@@ -156,6 +164,7 @@ header{
 }
 .banner{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   overflow-x: auto;
   gap: 1px;
@@ -190,6 +199,7 @@ header{
 /* Footer section */
 .Footer{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   margin-left: 49px;
