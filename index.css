@@ -164,5 +164,23 @@ header{
 }
 .bannerCard{
   min-width: 180px;
-  margin-left: 15px;
+  
+}
+.movieposter{
+   position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    aspect-ratio: 166 / 236;
+    transition: opacity .1s ease;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.poster{
+  margin-right: 8px;
+  height: 430px;
+  width: 350px;
+  margin-top: 15px;
+}
+.moviepostercontainer{
+  margin-top: 25px;
 }
