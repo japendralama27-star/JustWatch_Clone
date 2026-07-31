@@ -8,6 +8,7 @@
   "wdth" 100;
   color: #ffffff;
   background-color: #060d17;
+  box-sizing: border-box;
 }
 /* Header section*/
 header{
@@ -96,7 +97,6 @@ header{
 }
 .webIcons{
   display: flex;
-  flex-wrap: wrap;
   gap: 1px;
   overflow-x: auto; /* scroll horizontally */
   width: 100%;
